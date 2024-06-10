@@ -6,7 +6,7 @@ public:
     LinkedList();
     ~LinkedList();
     void append(int data);
-    void display();
+    void display() const;
 
 private:
     struct Node {

@@ -32,7 +32,7 @@ void LinkedList::append(int data)
     }
 }
 
-void LinkedList::display()
+void LinkedList::display() const
 {
     Node *current = head;
     while (current != nullptr)
