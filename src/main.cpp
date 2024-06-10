@@ -1,6 +1,11 @@
+#include "linked_list/LinkedList.h"
 #include <iostream>
 
-int main(int argc, char *argv[])
+int main()
 {
-    std::cout << "Hello world!" << std::endl;
+    LinkedList list;
+    list.append(1);
+    list.append(2);
+    list.display();
+    return 0;
 }
